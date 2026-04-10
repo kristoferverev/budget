@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { supabase } from './lib/supabase';
-import { loadSupabaseData, saveSupabaseTransaction, deleteSupabaseTransaction, updateSupabaseMonthlyBalance, updateSavingsSettings, loadReceipts, exportData, importData, mergeTransactions } from './utils/storage';
+import { loadSupabaseData, saveSupabaseTransaction, deleteSupabaseTransaction, updateSupabaseMonthlyBalance, updateSavingsSettings, loadReceipts, exportData, mergeTransactions } from './utils/storage';
 import { aggregateByMonth, calculateSavings } from './utils/calculations';
 import Dashboard from './components/Dashboard';
 import TransactionForm from './components/TransactionForm';
